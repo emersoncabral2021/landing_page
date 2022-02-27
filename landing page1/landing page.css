@@ -1,15 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    margin: 0px;
+}
 /*header*/
 
 header{
+    background-color: rgb(27, 29, 6);
+    color: white;
+    display: flex;
     
 }
 header h1{
-    font-size: 20px;
+    font-size: 15px;
+    margin: 10px;
 }
 header h1 span{
-    font-size: 40px;
+    font-size: 35px;
+    font-family: 'Nanum Myeongjo', serif;}
+header p{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header p span{
+   color: rgb(112, 72, 3);
 }
 input{
     display: block;
     margin-bottom: 7px;
+}
+main article{
+    background-image: url(https://img.elo7.com.br/product/zoom/323BA45/grao-de-cafe-para-artesanato-sache.jpg);
+    display: flex;
+
+}
+main{
 }
