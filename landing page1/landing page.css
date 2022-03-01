@@ -2,6 +2,10 @@
 *{
     margin: 0px;
 }
+body{
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(https://img.elo7.com.br/product/zoom/323BA45/grao-de-cafe-para-artesanato-sache.jpg);
+}
 /*header*/
 
 header{
@@ -13,6 +17,7 @@ header{
 header h1{
     font-size: 15px;
     margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 header h1 span{
     font-size: 35px;
@@ -31,10 +36,46 @@ input{
     display: block;
     margin-bottom: 7px;
 }
+
 main article{
-    background-image: url(https://img.elo7.com.br/product/zoom/323BA45/grao-de-cafe-para-artesanato-sache.jpg);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
-main{
+article{
+   height: 500px; 
+}
+article div{
+    color: white;
+    margin-left: 10px;
+}
+
+form{
+    color: white;
+    padding: 15px;
+    background-color: rgb(121, 114, 58);
+    border-radius: 15px;
+    margin-right:10px ;
+    text-align: center;
+    
+    margin-top: 5px;
+}
+form input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 20px;
+    
+}
+
+
+form button{
+    border: blue 1px solid;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
