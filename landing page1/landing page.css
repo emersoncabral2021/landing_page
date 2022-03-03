@@ -56,6 +56,7 @@ article div{
 }
 article div p{
     font-family: 'Roboto Slab', serif;
+    font-size: 20px;
 }
 article div #li-pri{
     font-size: 35px;
@@ -73,7 +74,7 @@ form{
     padding: 15px;
     background-color: rgb(121, 114, 58);
     border-radius: 15px;
-    margin-right:10px ;
+    margin-right:50px ;
     text-align: center;
     height: 350px;
     margin-top: 5px;
@@ -82,16 +83,18 @@ form input{
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    height: 20px;
+    height: 25px;
     
 }
 form h2{
     font-family: 'Roboto', sans-serif;
+    font-size: 28px;
 
 }
 form p{
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 24px;
 }
 form button{
     border: blue 1px solid;
