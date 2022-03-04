@@ -17,7 +17,11 @@ header{
     display: flex;
     
 }
+header img{
+    height: 100px;
+}
 header h1{
+    padding-top: 15px;
     font-size: 15px;
     margin: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
